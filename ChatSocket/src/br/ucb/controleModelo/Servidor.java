@@ -12,7 +12,7 @@ public class Servidor {
 	public static void main(String[] args) throws IOException {
 		new Servidor(8080).executa();
 	}
-
+ 
 	private int porta;
 	private List<PrintStream> contatos;
 

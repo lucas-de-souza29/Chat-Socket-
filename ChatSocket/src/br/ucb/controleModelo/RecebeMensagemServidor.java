@@ -10,7 +10,7 @@ public class RecebeMensagemServidor implements Runnable {
 		this.servidor = servidor;
 	}
 
-	public void run() {
+	public void run() { 
 		// recebendo as msgs do servidor e imprime na tela
 		Scanner leitor = new Scanner(this.servidor);
 		while (leitor.hasNextLine()) {

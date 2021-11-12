@@ -10,7 +10,7 @@ public class TratadorDeMensagemUsuario implements Runnable {
 
 	public TratadorDeMensagemUsuario(InputStream usuario, Servidor servidor) {
 		this.usuario = usuario;
-		this.servidor = servidor;
+		this.servidor = servidor; 
 	}
 
 	@Override

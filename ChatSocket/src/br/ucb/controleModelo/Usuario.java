@@ -13,7 +13,7 @@ public class Usuario {
 
 	private String apelido;
 	private String host;
-	private int porta;
+	private int porta; 
 
 	public Usuario(String host, int porta) {
 		this.host = host;
